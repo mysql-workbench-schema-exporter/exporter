@@ -1,0 +1,23 @@
+{
+    "name": "mysql-workbench-schema-exporter/exporter",
+    "description": "Export MySQL Workbench Schema model into various models such as Doctrine, Propel, Sequelize, and others",
+    "type": "metapackage",
+    "require-dev": {
+        "mysql-workbench-schema-exporter/mysql-workbench-schema-exporter": "dev-master",
+        "mysql-workbench-schema-exporter/doctrine1-exporter": "dev-master",
+        "mysql-workbench-schema-exporter/doctrine2-exporter": "dev-master",
+        "mysql-workbench-schema-exporter/node-exporter": "dev-master",
+        "mysql-workbench-schema-exporter/propel-exporter": "dev-master",
+        "mysql-workbench-schema-exporter/sencha-exporter": "dev-master",
+        "mysql-workbench-schema-exporter/zend1-exporter": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Toha",
+            "email": "tohenk@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
